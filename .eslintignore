@@ -1,2 +1,6 @@
 .eslintrc.js
 docusaurus.config.js
+babel.config.js
+tsconfig.json
+tailwind.config.js
+postcss.config.js

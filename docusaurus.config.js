@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Easy-pp',
+  tagline: '做你认为有价值的事',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -45,8 +45,8 @@ const config = {
       navbar: {
         title: 'Easy-pp',
         // logo: {
-          // alt: 'Easy-pp',
-          // src: 'img/logo.svg',
+        //   alt: 'Easy-pp',
+        //   src: 'img/logo.png',
         // },
         items: [
           {
@@ -78,30 +78,38 @@ const config = {
           {
             title: 'Community',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+              // {
+              //   label: 'Stack Overflow',
+              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              // },
+              // {
+              //   label: 'Discord',
+              //   href: 'https://discordapp.com/invite/docusaurus',
+              // },
+              // {
+              //   label: 'Twitter',
+              //   href: 'https://twitter.com/docusaurus',
+              // },
             ],
           },
           {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Verdaccio',
+                to: 'http://verdaccio.easy-pp.com/',
+              },
+              {
+                label: 'Easy-pp',
+                to: 'https://www.easy-pp.com/',
+              },
+              {
+                label: 'Typescript-Study-Set',
+                to: 'https://typescript.easy-pp.com',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Easy-pp',
               },
             ],
           },
